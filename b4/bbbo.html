@@ -1,0 +1,435 @@
+<html>
+<head>
+   
+    
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="s3.css" type="text/css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    
+   
+    <title>bbb</title>
+    
+    </head>
+    
+
+  <body>
+      
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+      
+      
+      <!--navigation-->
+      
+     <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top"><!--navbar-expand-md means navbar items will be shown out of the toggler button on medium and large screen-->
+         
+      <div class="container-fluid"><!--fluid property takes 100% of the screen-->
+          <a class="navbar-brand font-weight-bold" href="#"><img src="logo.png" width="30" height="26">Media</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarr">
+              <span class="navbar-toggler-icon"></span>
+          
+          </button>
+         <div class="collapse navbar-collapse" id="navbarr">
+          <ul class="navbar-nav ml-auto text-center"> <!--ml-auto will push our navbar items to the right side on large screen-->
+              
+              <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+              <li class="nav-item"><a class="nav-link"  href="#">About</a></li>
+              <li class="nav-item"><a class="nav-link"  href="#">contact</a></li>
+              <li class="nav-item"><a class="nav-link"  href="#">details</a></li>
+              <li class="nav-item"><a class="nav-link"  href="#">back</a></li>
+             
+             
+             
+             </ul>
+          
+          </div>
+         
+         </div>
+      
+      </nav> 
+      
+      <!--image slider--(copy-paste)-->
+
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img3a.png" class="d-block w-100" alt="...">
+        <div class="carousel-caption">
+        <h1 class="display-2">bootstrap</h1>
+            <h3>full layout</h3>
+            <button type="button" class="btn btn-outline-info btn-lg">view</button>
+            <button type="button" class="btn btn-primary btn-lg">more info</button>
+        
+        </div>
+    </div>
+    <div class="carousel-item">
+      <img src="img2.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="img1.png" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+      
+      <!--footer of first page-->
+      <section>
+      <div class="container-fluid  p-3">
+      <div class="row jumbotron"> <!--jumbotron is a specific class in bootstrap for making a footer type thing, it has a default greish border clr -->
+          
+          <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+          <p class="lead">they feel more comfortable focusing on their inner thoughts and ideas, rather than what's happening externally. They enjoy spending time with just one or two people, rather than large groups or crowds</p>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+              <button type="button"
+ class="btn btn-outline-dark" >Web hosting</button>         
+          </div>
+          
+          </div>
+      
+      
+      </div>
+      </section>
+      <!--formm-->
+      <section class="formm">
+      <div class="container ">
+          <div class="row">
+        
+              <div class="col-12 text-center">
+              <h3 class="p-3">Fill your form:</h3>
+                  <div class="form">
+                  <label for="email" class="form-label">Enter your Email: </label>
+                  <input type="email" id="email" placeholder="Enter here" class="form-control inp">
+                      
+                      <label for="name" class="form-label">Enter your name: </label>
+                  <input type="text" id="name" placeholder="Enter here" class="form-control inp">
+                      <div class="m-3">
+                      <input type="checkbox" class="form-check-input" id="check">
+                      <label for="check" class="form-check-label">check out</label>
+                      
+                      </div>
+                        <div class="dropdown">
+              <button type="button" class="btn btn-primary dropdown-toggle bg-secondary m-3" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">dropdown</button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href="#">drop-1</a></li>
+                 <li><a class="dropdown-item" href="#">drop-1</a></li>
+                  <li><a class="dropdown-item" href="#">drop-1</a></li>
+                  <li><a class="dropdown-item" href="#">drop-1</a></li>
+              
+              
+              </ul>
+              </div>
+                      <div class="m-3">
+                          <span class="tt" data-bs-placement="bottom" title="you can't submit">
+                      <button type="button" class="btn btn-info">submit</button>
+                          </span>
+                      </div>
+                      
+            
+              </div>
+                  
+              </div>
+           
+          </div>
+          
+          </div>
+      
+      </section>
+      
+      <!-- welcome section-->
+      <section class="bg-light">
+      <div class="container-fluid">
+      <div class="row welcome text-center">
+          
+          <div class="col-12">
+          <h1 class="display-4 pt-3">Bootstrap-5 yayy</h1>
+          </div>
+          <hr class="my-4">
+         
+          <div class="col-12 welcome">
+          <p class="lead">they feel more comfortable focusing on their inner thoughts and ideas, rather than what's happening externally. They enjoy spending time with just one or two people, rather than large groups or crowds</p>
+          
+          </div>
+          </div>
+      
+      </div>
+      
+      <!--next 3 column section-->
+      <section class="conationer-fluid">
+      <div class="row text-center">
+          <div class="col-xs-12 col-sm-6 col-md-4">
+              <i class="fas fa-code fa-3x text-warning"></i>
+              <h3>HTML5</h3>
+              <p>latest version of html, html5 :)</p>
+          
+          </div>
+          
+             <div class="col-xs-12 col-sm-6 col-md-4">
+              <i class="fas fa-bold fa-3x "></i>
+              <h3>Bootstrap5</h3>
+              <p>latest version of bootstrap, bootstrap5 :)</p>
+          
+          </div>
+          
+             <div class="col-xs-12 col-sm-6 col-md-4">
+              <i class="fab fa-css3 fa-3x text-info"></i>
+              <h3>CSS3</h3>
+              <p>latest version of CSS, CSS3 :)</p>
+          
+          </div>
+          <hr class="my-4">
+          
+          </div>
+      
+      
+      
+      </section>
+          </section>
+      
+      <!--next page with 2 columns-->
+      <section class="container-fluid p-4">
+      <div class="row p-4">
+          <div class="col-sm-12 col-md-6">
+          <h2 class="text-left">
+              Our next page...
+              </h2>
+              <p>It takes around 5 to 6 months to learn web development from scratch. This is if you spend a few hours studying every day. Some people learn in just a few months</p>
+              <p>
+Web developers are about average in terms of happiness. At CareerExplorer, we conduct an ongoing survey with millions of people and ask them how satisfied they are with their careers. As it turns out, web developers rate their career happiness 3.3 out of 5 stars which puts them in the top 43% of careers.</p>
+          
+              <p>
+Most people take longer than 6 months to get a decent job in this industry. It could even take up to a year or two.</p>
+              <button type="button" class="btn btn-primary mt-3 mb-3" data-bs-toggle="modal" data-bs-target="#reg-modal">learn more</button>
+          </div>
+        
+          
+          <div class="col-sm-12 col-md-6">
+              
+
+              <img class="img-fluid border border-info" src="img4a.png" width="100%">
+          
+          
+          </div>
+          
+          
+          </div>
+      
+      
+      </section>
+        <div class="modal fade" id="reg-modal" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog">
+          <div class="modal-content">
+          <div class="modal-header">
+             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            
+              <div class="modal-body">
+              <p>
+JavaScript is a programming language commonly used in web development. It was originally developed by Netscape as a means to add dynamic and interactive elements to websites. ... For example, a JavaScript function may check a web form before it is submitted to make sure all the required fields have been filled out.
+JavaScript is a programming language commonly used in web development. It was originally developed by Netscape as a means to add dynamic and interactive elements to websites. ... For example, a JavaScript function may check a web form before it is submitted to make sure all the required fields have been filled out.
+JavaScript is a programming language commonly used in web development. It was originally developed by Netscape as a means to add dynamic and interactive elements to websites. ... For example, a JavaScript function may check a web form before it is submitted to make sure all the required fields have been filled out.</p>
+              </div>
+              </div>
+          
+          </div>
+          </div>
+      
+      </div>
+      
+      <!--emoji section-->
+      <section>
+      <button class="fun mb-4"  data-bs-toggle="collapse" data-bs-target="#emoji">Emoji here <i class="bi bi-arrow-down-circle"></i></button>
+          <div class="collapse" id="emoji">
+          <div class="container-fluid">
+              <div class="row text-center">
+                  
+              <div class="col-sm-6 col-md-3">
+                  <img class="gif" width="50%" src="pnda.gif">
+                  
+                  </div>
+                   <div class="col-sm-6 col-md-3">
+                  <img class="gif" width="50%" src="cat.gif">
+                  
+                  </div>
+                   <div class="col-sm-6 col-md-3">
+                  <img class="gif" width="50%" src="snak.gif">
+                  
+                  </div>
+                   <div class="col-sm-6 col-md-3">
+                  <img class="gif" width="50%" src="eye.gif">
+                  
+                  </div>
+              
+              </div>
+              
+              </div>
+          
+          </div>
+      
+      
+      </section>
+      <section class="bg-light">
+      <div class="container-fluid p-5">
+      <div class="row text-center">
+         <div class="col-12">
+          <h1 class="display-4 font-weight-bold text-info pb-3">Meet the Team</h1>
+             <hr>
+          
+          </div> 
+          
+          </div>
+      
+      
+      </div>
+      
+      <!--cards-->
+      <div class="container-fluid p-4">
+          <div class="row p-4">
+          <div class="col-md-4">
+              <div class="card">
+              <img class="card-img-top img-fluid" src="t1.png">
+                   <div class="card-body">
+                  <h3 class="card-title">Team work</h3>
+                 
+                 
+                  <p class="card-subtitle"> For example, a JavaScript function may check a web form before it is submitted to make sure all the required fields have been filled out.</p>
+                 <a href="#" class="b-card btn btn-outline-dark mt-3">Profile</a>
+                  </div>
+
+              
+              </div>
+              
+              </div>
+              
+              <div class="col-md-4">
+              <div class="card">
+              <img class="card-img-top img-fluid" src="t2.png">
+                   <div class="card-body">
+                  <h3 class="card-title">Team work</h3>
+                 
+                 
+                  <p class="card-subtitle"> For example, a JavaScript function may check a web form before it is submitted to make sure all the required fields have been filled out.</p>
+                 <a href="#" class=" b-card btn btn-outline-dark mt-3">Profile</a>
+                  </div>
+
+              
+              </div>
+              
+              </div>
+              
+              <div class="col-md-4">
+              <div class="card">
+              <img class="card-img-top ooo img-fluid" src="t3.png" >
+                   <div class="card-body">
+                  <h3 class="card-title">Team work</h3>
+                 
+                 
+                  <p class="card-subtitle"> For example, a JavaScript function may check a web form before it is submitted to make sure all the required fields have been filled out.</p>
+                 <a href="#" class=" b-card btn btn-outline-dark mt-3">Profile</a>
+                  </div>
+
+              
+              </div>
+              
+              </div>
+          </div>
+          
+          </div>
+    
+      </section>
+      <!--last pg, connect section-->
+      
+      <section class="last-section p-5">
+      <div class="container-fluid">
+          <h2 class="text-center text-dark">Connect</h2>
+          <div class="row p-5">
+          <div class="col-12 p-3 text-center social-icons">
+              <a href="#"><i class="fab fa-facebook fa-3x"></i></a>
+              
+              <a href="#"><i class="fab fa-twitter fa-3x"></i></a>
+              
+              <a href="#"><i class="fab fa-google-plus-g fa-3x"></i></a>
+              
+              <a href="#"><i class="fab fa-instagram fa-3x"></i></a>
+              
+              <a href="#"><i class="fab fa-youtube fa-3x"></i></a>
+              
+              </div>
+          
+          </div>
+          </div>
+      
+      
+      </section>
+      
+      <!--footer-->
+      
+      <footer class="container-fluid pt-3 pb-3">
+      <div class="row text-center">
+          <div class="col-md-4">
+          <h3 class="pt-5">personal info</h3>
+               <hr class="light">
+              <p>555-55-5555</p>
+              <p>Mahnoor khan</p>
+              <p>m@gmail.com</p>
+              <p>wah cantt</p>
+              
+          
+          </div>
+           <div class="col-md-4">
+               <hr class="light">
+          <h3>working hours</h3>
+                <hr class="light">
+              <p>monday, 9am</p>
+              <p>wednesday, 11am</p>
+              <p>Friday, 3pm</p>
+             
+              
+          
+          </div>
+           <div class="col-md-4">
+                <hr class="light">
+          <h3>contact</h3>
+               <hr class="light">
+              <p>555-55-5555</p>
+              <p>012334577</p>
+              <p>555-65-09</p>
+              <p>01-02-0345</p>
+              
+          
+          </div>
+          
+          </div>
+
+      </footer>
+      
+      <!-- javascript code for tooltip-->
+        <script>
+      const tooltips=document.querySelectorAll('.tt')
+      tooltips.forEach(t => {
+          new bootstrap.Tooltip(t)
+      })
+      
+      </script>
+      
+    </body>
+</html>
+
+
+

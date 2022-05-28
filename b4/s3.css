@@ -1,0 +1,117 @@
+hr {
+    border-top: 2px solid darkgrey;
+    width: 65  %;
+    
+    height: 2px;
+    padding-top: 10px;
+}
+.light{
+    
+     border-top: 2px solid;
+    color: black;
+    width: 50%;
+
+    height: 2px; /*for gap below the hr tag*/
+    padding-top: 10px;
+}
+
+.b-card:hover{
+    
+    background:cadetblue;
+}
+footer{
+    
+    background-color: darkgrey;
+}
+.social-icons{
+    display: flex;
+    /*justify content will always work with the property, display:flex*/
+    justify-content: space-around;
+}
+.navbar{
+    padding: .8rem;
+}
+.nav-item{
+  padding-right: 20px; 
+    font-weight: 500;
+    
+}
+
+.carousel-inner img{
+    
+    width: 100%;
+    height: 550px;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+.carousel-caption{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%); /*imp to move content to the top by -50% y axis*/
+    
+}
+.carousel-caption h1{
+    color: azure;
+    text-shadow: 1px 1px 10px #000;
+}
+.carousel-caption button{
+    margin-top: 20px;
+    
+}
+.welcome p{
+    
+   width: 60%; 
+    margin: 0 auto; /*You can set the margin property to auto to horizontally center the element within its container*/
+   padding-bottom: 30px;
+}
+/*changing clrs of bootstrap*/
+.fa-bold{
+    color: purple;
+}
+/*emoji button*/
+.fun{
+   width: 100%;
+    background-color:ghostwhite;
+    border-color: black solid;
+}
+.fun:hover{
+    background: lightgreen;
+}
+.gif{
+    max-width: 100%;
+}
+/* clr chnging insta, twitter etc*/
+.fa-facebook{
+    color:blue;
+}
+.fa-google-plus-g{
+    color: orangered;
+}
+.fa-instagram{
+    color: palevioletred;
+}
+.fa-youtube{
+    color: red;
+}
+
+.dropdown-item{
+    
+    color: black;
+}
+.dropdown-item:hover{
+    background: aliceblue;
+}
+.inp{
+    
+width: 50%;
+   margin: 0 auto;
+    /*this margin property is used to bring the content in the center, after chnging width*/
+    
+}
+.formm{
+    
+    background-color: azure;
+    height: 600px;
+    padding-top: 30px;
+}
